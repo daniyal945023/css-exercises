@@ -1,0 +1,15 @@
+.click {
+    background-color: black;
+    color: white;
+    font-weight: bold;
+}
+
+.clickhere {
+    background-color: yellow;
+}
+
+.click,
+.clickhere {
+    font-size: 28px;
+    font-family: Helvetica, "Times New Roman", sans-serif;
+}
