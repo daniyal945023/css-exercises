@@ -5,12 +5,39 @@ body {
 img {
   width: 100px;
   height: 100px;
+  
 }
 
 .title {
   font-size: 36px;
   font-weight: 900;
+  text-align: center;
+  margin-bottom: 32px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  
+  
+}
+
+.img-text {
+  display: flex;
+  flex-direction: column;
+  margin-right: 52px;
+  align-items: center;
+  text-align: center;
+  flex-wrap: wrap;
+  margin-left: 52px;
+}
+
+
+
+
+
+
+
 
 /* do not edit this footer */
 .footer {
