@@ -5,6 +5,9 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 img {
@@ -24,3 +27,90 @@ input {
   padding: 8px 24px;
   width: 400px;
 }
+
+ul {
+  list-style-type: none;
+}
+
+
+
+.header {
+  display: flex;
+  
+  
+}
+
+.header .right-links {
+  display: flex;
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+
+.header .left-links {
+  display: flex;
+  margin-right: auto;
+margin-left: -15px;
+}
+
+
+a {
+  margin-right: 25px;
+}
+
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+    margin-top: 50px;
+    
+    
+}
+
+
+
+
+
+.footer {
+  margin-top: auto;
+  display: flex;
+  background-color: #eeeeee;
+}
+
+.footer .left-links {
+  display: flex;
+  margin-right: auto;
+  margin-left: -15px;
+}
+
+.footer .right-links {
+  display: flex;
+  margin-left: auto;
+  margin-right: 25px;
+}
+
+
+a {
+  text-decoration: none;
+  color: black;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.buttons {
+  margin-top: 17px;
+  
+}
+
+
+button {
+  padding: 7px;
+}
+
+
+
+
+
+
